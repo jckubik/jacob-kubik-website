@@ -26,42 +26,26 @@ const NavBar = () => {
       <a href="#projects">Projects</a>
       <a href="#about">About</a>
       <a href="https://www.linkedin.com/in/jckubik/">LinkedIn</a>
-      <a href="#">
-        <div 
-          id="lightButton"
-          class="darkLightButton hide-button"
-          width="40"
-          height="40"
-          onClick={handleDarkLightMode}
-        >
-          <BsFillBrightnessHighFill className="light-button" size={"1.5em"} />
-        </div>
-        <div
-          id="darkButton"
-          class="darkLightButton"
-          width="30"
-          height="30"
-          onClick={handleDarkLightMode}
-        >
-          <BsFillMoonStarsFill className="dark-button" size={"1.5em"} />
-        </div>
-        {/* <img
-          id="lightButton"
-          class="darkLightButton hide-button"
-          src={lightMode}
-          width="40"
-          height="40"
-          alt="an icon for turning on the light mode theme"
-        />
-        <img
-          id="darkButton"
-          class="darkLightButton"
-          src={nightMode}
-          width="30"
-          height="30"
-          alt="an icon for turning on the dark mode theme"
-        /> */}
-      </a>
+      <div 
+        id="lightButton"
+        class="darkLightButton hide-button"
+        width="40"
+        height="40"
+        onClick={handleDarkLightMode}
+        role="button"
+      >
+        <BsFillBrightnessHighFill className="light-button" size={"1.5em"} />
+      </div>
+      <div
+        id="darkButton"
+        class="darkLightButton"
+        width="30"
+        height="30"
+        onClick={handleDarkLightMode}
+        role="button"
+      >
+        <BsFillMoonStarsFill className="dark-button" size={"1.5em"} />
+      </div>
     </nav>
   );
 };

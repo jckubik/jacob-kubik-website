@@ -1,4 +1,4 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import '../CSS/App.css';
 import About from './About';
 import Banner from './Banner';
@@ -10,7 +10,7 @@ function App() {
     <body>
       <main>
         <Container>
-          <Row className=''>
+          <Row>
             <Row>
               <Header />
             </Row>
