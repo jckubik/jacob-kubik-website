@@ -1,0 +1,28 @@
+#projects {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+#projects a {
+  text-decoration: none;
+  color: white;
+}
+
+#projectsWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+}
+
+@media (min-width: 768px) {
+  #projectsWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+  }
+ }
+
+.wrapper {
+  margin: 5vh 3vw 5vh 3vw;
+}

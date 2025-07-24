@@ -1,0 +1,22 @@
+nav#main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: none;
+  grid-column-gap: 0;
+  text-align: center;
+  align-items: center;
+}
+
+header a {
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a {
+  font-weight: 700;
+}
+
+.hide-button {
+  display: none;
+}

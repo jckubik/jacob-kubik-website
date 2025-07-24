@@ -1,0 +1,21 @@
+#banner {
+  background-color: var(--mainPurpleLighter);
+  padding: 17vh 4vw 17vh 4vw;
+  margin: 0;
+}
+
+#banner .inner {
+  background-color: var(--mainPurpleDarker);
+  color: white;
+  padding: 2em 2em 2em 2em;
+  margin: 0;
+  text-align: center;
+}
+
+#mainName {
+  border-bottom: 3px solid;
+}
+
+.name {
+  font-size: var(--xtra-big-ass-heading);
+}

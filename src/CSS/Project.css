@@ -1,0 +1,27 @@
+.project {
+  background-color: var(--mainPurpleLighter);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectH3 {
+  margin: 0;
+  color: white;
+}
+
+.projectImg {
+  object-fit: cover;
+  width: 100%;
+}
+
+.projectDescriptionSection {
+  background-color: var(--mainPurpleDarker);
+  color: white;
+  padding: 0.5rem;
+  flex: 1;
+}
+
+.projectTechnologiesList {
+  text-align: left;
+}
